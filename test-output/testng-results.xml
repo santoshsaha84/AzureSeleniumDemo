@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15764" started-at="2020-08-16T08:27:41Z" finished-at="2020-08-16T08:27:57Z">
+  <suite name="Suite" duration-ms="16204" started-at="2020-08-17T08:27:07Z" finished-at="2020-08-17T08:27:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="15764" started-at="2020-08-16T08:27:41Z" finished-at="2020-08-16T08:27:57Z">
+    <test name="Test" duration-ms="16204" started-at="2020-08-17T08:27:07Z" finished-at="2020-08-17T08:27:23Z">
       <class name="tests.GoogleSearchTestNGDemo">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.GoogleSearchTestNGDemo@c038203]" name="Setup" is-config="true" duration-ms="6" started-at="2020-08-16T13:57:41Z" finished-at="2020-08-16T13:57:41Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.GoogleSearchTestNGDemo@c038203]" name="Setup" is-config="true" duration-ms="7" started-at="2020-08-17T13:57:07Z" finished-at="2020-08-17T13:57:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="googleSearch()[pri:0, instance:tests.GoogleSearchTestNGDemo@c038203]" name="googleSearch" duration-ms="10837" started-at="2020-08-16T13:57:41Z" finished-at="2020-08-16T13:57:52Z">
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:tests.GoogleSearchTestNGDemo@c038203]" name="googleSearch" duration-ms="15303" started-at="2020-08-17T13:57:07Z" finished-at="2020-08-17T13:57:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSearch -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:tests.GoogleSearchTestNGDemo@c038203]" name="TearDown" is-config="true" duration-ms="4909" started-at="2020-08-16T13:57:52Z" finished-at="2020-08-16T13:57:57Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:tests.GoogleSearchTestNGDemo@c038203]" name="TearDown" is-config="true" duration-ms="876" started-at="2020-08-17T13:57:22Z" finished-at="2020-08-17T13:57:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
