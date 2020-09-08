@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite2" duration-ms="34" started-at="2020-09-06T11:12:10Z" finished-at="2020-09-06T11:12:10Z">
+  <suite name="Default suite" duration-ms="11100" started-at="2020-09-08T11:54:19Z" finished-at="2020-09-08T11:54:30Z">
     <groups>
     </groups>
-    <test name="listeners" duration-ms="34" started-at="2020-09-06T11:12:10Z" finished-at="2020-09-06T11:12:10Z">
-      <class name="listners.TestNGListnerDemo2">
-        <test-method status="PASS" signature="Test1()[pri:0, instance:listners.TestNGListnerDemo2@51565ec2]" name="Test1" duration-ms="1" started-at="2020-09-06T16:42:10Z" finished-at="2020-09-06T16:42:10Z">
+    <test name="Default test" duration-ms="11100" started-at="2020-09-08T11:54:19Z" finished-at="2020-09-08T11:54:30Z">
+      <class name="tests.GoogleSearchTestNGDemo">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.GoogleSearchTestNGDemo@55f3ddb1]" name="Setup" is-config="true" duration-ms="32" started-at="2020-09-08T17:24:19Z" finished-at="2020-09-08T17:24:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:listners.TestNGListnerDemo2@51565ec2]" name="Test2" duration-ms="0" started-at="2020-09-06T16:42:10Z" finished-at="2020-09-06T16:42:10Z">
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:tests.GoogleSearchTestNGDemo@55f3ddb1]" name="googleSearch" duration-ms="10356" started-at="2020-09-08T17:24:19Z" finished-at="2020-09-08T17:24:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="Test3()[pri:0, instance:listners.TestNGListnerDemo2@51565ec2]" name="Test3" duration-ms="2" started-at="2020-09-06T16:42:10Z" finished-at="2020-09-06T16:42:10Z">
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:tests.GoogleSearchTestNGDemo@55f3ddb1]" name="TearDown" is-config="true" duration-ms="683" started-at="2020-09-08T17:24:30Z" finished-at="2020-09-08T17:24:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test3 -->
-      </class> <!-- listners.TestNGListnerDemo2 -->
-      <class name="listners.TestNGListnerDemo">
-        <test-method status="PASS" signature="Test4()[pri:0, instance:listners.TestNGListnerDemo@68be2bc2]" name="Test4" duration-ms="7" started-at="2020-09-06T16:42:10Z" finished-at="2020-09-06T16:42:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test4 -->
-        <test-method status="PASS" signature="Test5()[pri:0, instance:listners.TestNGListnerDemo@68be2bc2]" name="Test5" duration-ms="2" started-at="2020-09-06T16:42:10Z" finished-at="2020-09-06T16:42:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test5 -->
-        <test-method status="PASS" signature="Test6()[pri:0, instance:listners.TestNGListnerDemo@68be2bc2]" name="Test6" duration-ms="1" started-at="2020-09-06T16:42:10Z" finished-at="2020-09-06T16:42:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test6 -->
-      </class> <!-- listners.TestNGListnerDemo -->
-    </test> <!-- listeners -->
-  </suite> <!-- Suite2 -->
+        </test-method> <!-- TearDown -->
+      </class> <!-- tests.GoogleSearchTestNGDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
