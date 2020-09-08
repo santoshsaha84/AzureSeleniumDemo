@@ -5,5 +5,5 @@
     <classes>
       <class name="tests.GoogleSearchTestNGDemo"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> 
+</suite> 
