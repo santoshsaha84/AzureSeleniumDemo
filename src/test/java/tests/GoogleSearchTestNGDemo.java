@@ -21,8 +21,8 @@ public class GoogleSearchTestNGDemo {
 	{
 		String projectPath=System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver", projectPath+"\\Drivers\\chromedriver_win32\\chromedriver.exe");
-		capability = new DesiredCapabilities();
-		capability.setCapability("binary", "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
+//		capability = new DesiredCapabilities();
+//		capability.setCapability("binary", "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
 		
 	}
 	
@@ -41,7 +41,7 @@ public class GoogleSearchTestNGDemo {
 	public void googleSearch()
 	{	
 		ChromeOptions options = new ChromeOptions();
-		options.merge(capability);
+//		options.merge(capability);
         options.addArguments("headless");
         options.addArguments("window-size=1200x600");
 		driver=new ChromeDriver(options);
