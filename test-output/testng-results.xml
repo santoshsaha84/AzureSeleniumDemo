@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11100" started-at="2020-09-08T11:54:19Z" finished-at="2020-09-08T11:54:30Z">
+  <suite name="Suite" duration-ms="13505" started-at="2020-09-08T12:18:32Z" finished-at="2020-09-08T12:18:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11100" started-at="2020-09-08T11:54:19Z" finished-at="2020-09-08T11:54:30Z">
+    <test name="Test" duration-ms="13505" started-at="2020-09-08T12:18:32Z" finished-at="2020-09-08T12:18:45Z">
       <class name="tests.GoogleSearchTestNGDemo">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.GoogleSearchTestNGDemo@55f3ddb1]" name="Setup" is-config="true" duration-ms="32" started-at="2020-09-08T17:24:19Z" finished-at="2020-09-08T17:24:19Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.GoogleSearchTestNGDemo@55f3ddb1]" name="Setup" is-config="true" duration-ms="26" started-at="2020-09-08T17:48:32Z" finished-at="2020-09-08T17:48:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="googleSearch()[pri:0, instance:tests.GoogleSearchTestNGDemo@55f3ddb1]" name="googleSearch" duration-ms="10356" started-at="2020-09-08T17:24:19Z" finished-at="2020-09-08T17:24:30Z">
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:tests.GoogleSearchTestNGDemo@55f3ddb1]" name="googleSearch" duration-ms="12736" started-at="2020-09-08T17:48:32Z" finished-at="2020-09-08T17:48:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSearch -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:tests.GoogleSearchTestNGDemo@55f3ddb1]" name="TearDown" is-config="true" duration-ms="683" started-at="2020-09-08T17:24:30Z" finished-at="2020-09-08T17:24:30Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:tests.GoogleSearchTestNGDemo@55f3ddb1]" name="TearDown" is-config="true" duration-ms="713" started-at="2020-09-08T17:48:44Z" finished-at="2020-09-08T17:48:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- tests.GoogleSearchTestNGDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
